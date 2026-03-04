@@ -1,0 +1,46 @@
+// Tarjetas de beneficios
+.feature-card {
+    transition: 0.3s;
+    border-radius: 15px;
+
+    &:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 10px 20px rgba(1, 152, 216, 0.2) !important;
+    }
+}
+
+// Tarjeta de Login/Registro
+.auth-pro__card {
+    background: $white;
+    border-radius: 20px;
+    padding: 30px;
+    border: none;
+    animation: fadeUp 0.8s ease forwards;
+}
+
+.auth-pro__tabs {
+    background: #eee;
+    border-radius: 50px;
+    padding: 5px;
+
+    .nav-link {
+        border-radius: 50px;
+        color: #555;
+
+        &.active {
+            background-color: $primary !important;
+            color: $white !important;
+        }
+    }
+}
+
+.form-control {
+    border-radius: 10px;
+    background: #f9f9f9;
+    transition: all 0.3s ease;
+
+    &:focus {
+        border-color: $primary;
+        box-shadow: 0 0 0 0.2rem rgba($primary, 0.25);
+    }
+}
